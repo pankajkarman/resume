@@ -1,0 +1,83 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[black]{classic}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.88]{geometry}
+
+\firstname{Pankaj}
+\familyname{\mbox{Kumar}}
+\title{\small Python $\star$ Git $\star$ Machine Learning $\star$ Physical Modeling}
+\phone{+91 7061255826}
+\email{pankaj.kmr1990@gmail.com}
+\homepage{pankajkarman.github.io}
+\social[linkedin]{pankaj-kumar-0a411013}
+\social[github]{pankajkarman}
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+\renewcommand{\labelitemi}{$\circ$}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\vspace*{-1cm}
+
+\section{\textsc{Education}}
+%    \cventry{years}{degree/job title}{institution/employer}{localization}{grade}{description}
+\cventry{Present}{Doctor of Philosophy, Atmospheric Chemistry and Physics}{Indian Institute of Technology Kharagpur (IN)}{}{}{}
+\cventry{2017}{Master of Technology, Earth System Science and Technology}{Indian Institute of Technology Kharagpur (IN)}{}{GPA: 9.19/10}{}
+\cventry{2012}{Bachelor of Engineering, Mechanical Engineering}{Birla Institute of Technology, Mesra (IN)}{}{GPA: 7.59/10}{}
+
+\section{\textsc{Research Experience}}
+		\cventry{2017 - Present}{Research Scholar, PhD}{ATMOS Lab, IIT Kharagpur}{}{}{
+			{\footnotesize 
+				\begin{itemize}
+				\item Implemented bias-correction of long-term records of rainfall, ozone and related trace gases using various techniques like quantile mapping and scaled distribution mapping in python.\item Developed Receptor models for pollutant source detection based on airmass trajectories in python.\item Implemented Mean-shift clustering of HYSPLIT air-parcel trajectories with features extracted using wavelet transform for transportation pathways analysis.\item Performed Self-organising map based clustering of tropospheric ozone and their trend analysis using Bayesian Dynamic linear model and Multivariate linear regression.\item Conducted Causal network analysis of tropospheric ozone to identify geophysical drivers responsible for observed variability.\item Investigated Land Use Land Cover change over North-East India using Google Earth Engine and Random forest based classification.\item Developed a sequence-to-sequence autoencoder to extract features from variable length trajectories.\item Simulated and analysed global atmospheric chemistry using GEOS-Chem at Pratyush, India's fastest supercomputer.	
+				\end{itemize}
+			}
+		}
+		\cventry{2016 - 2017}{Research Assistant, MTech}{ATMOS Lab, IIT Kharagpur}{}{}{
+			{\footnotesize 
+				\begin{itemize}
+				\item Estimated rainfall using preliminary Doppler Weather radar data for Kolkata region using python.\item Investigated freezing and shape transformation of water droplet numerically using MATLAB.	
+				\end{itemize}
+			}
+		}
+		\cventry{2011 - 2012}{Undergraduate project, BE}{BIT Mesra}{}{}{
+			{\footnotesize 
+				\begin{itemize}
+				\item Performed optimization of Wind Turbine Blades using Fluent in Ansys.\item Investigated natural convection in Bingham fluids with differentially heated sidewalls using Fluent.	
+				\end{itemize}
+			}
+		}
+
+\section{\textsc{Technical Skills}}
+		\cvitem{\textbullet}{\textbf{Data Analytics}: Bayesian inference, Machine Learning, Causal analysis}
+		\cvitem{\textbullet}{\textbf{Physical Modeling}: HYSPLIT, RRTMG, WRF, GEOS-Chem, climlab}
+		\cvitem{\textbullet}{\textbf{Programming}: Python, Javascript, MATLAB, Fortran, Bash, Git}
+		\cvitem{\textbullet}{\textbf{Markup Languages}: LaTeX, Markdown, HTML/CSS}
+
+\section{\textsc{Publications}}
+		\cvitem{\textbullet}{J. Kuttippurath, P. Kumar, P. J. Nair, P C Pandey, \textit{\href{}{Emergence of ozone recovery evidenced by reduction in the occurrence of Antarctic ozone loss saturation,}} {\color{see} \href{https://www.nature.com/articles/s41612-018-0052-6}{npj Climate and Atmospheric Science, 2018.}}}
+		\cvitem{\textbullet}{J. Kuttippurath, P. Kumar, P. J. Nair, A. Chakraborty, \textit{\href{}{Accuracy of satellite total column ozone measurements in polar vortex conditions: Comparison with ground-based observations in 1979–2013,}} {\color{see} \href{https://www.sciencedirect.com/science/article/abs/pii/S0034425718300671}{Remote Sensing of Environment, 2018.}}}
+		
+\section{\textsc{Awards}}
+		% \cvitem{LHS}{RHS}
+		\cvitem{\textbullet}{Received full funding for attending European Geosciences Union (EGU) General Assembly held in Vienna, Austria during April 2017.}
+
+
+
+\end{document}
+%% end of file `page.tex'.
