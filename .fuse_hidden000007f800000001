@@ -1,6 +1,6 @@
 \documentclass[11pt,a4paper]{moderncv}
 
-\moderncvtheme[burgundy]{classic}
+\moderncvtheme[blue]{old}
 
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.88]{geometry}
